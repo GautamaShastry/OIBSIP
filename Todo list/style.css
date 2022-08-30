@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=DynaPuff:wght@700&family=Quicksand:wght@500&display=swap');
+*,*::before,*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  background-image: url("todo.jpg");
+  opacity: 1.0;
+}
+.title{
+  margin-top: 3vh;
+  margin-left: 45vw;
+  font-size: 30px;
+  font-family: 'Aboreto', cursive;
+  font-family: 'DynaPuff', cursive;
+  font-family: 'Quicksand', sans-serif;
+}
+.container{
+  width: 40%;
+  top: 20%;
+  left: 35%;
+  background: rgb(57, 180, 218);
+  border-radius: 10px;
+  min-width: 450px;
+  position: absolute;
+  min-height: 100px;
+}
+#newtask{
+  position: relative;
+  padding: 30px 20px;
+}
+#newtask input{
+  width: 75%;
+  height: 45px;
+  padding: 12px;
+  color: #111111;
+  font-weight: 500;
+  position: relative;
+  border-radius: 5px;
+  font-family: 'Poppins',sans-serif;
+  font-size: 15px;
+  border: 2px solid #d1d3d4;
+}
+#newtask input:focus{
+  outline: none;
+  border-color: #0d75ec;
+}
+#newtask button{
+  position: relative;
+  float: right;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #0d75ec;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  width: 20%;
+  height: 45px;
+  border-radius: 5px;
+  font-family: 'Poppins',sans-serif;
+}
+#newtask button:hover{
+  font-size: 25px;
+}
+#push:hover{
+  font-size: 20px;
+  background-color: azure;
+  color: #111111;
+}
+#tasks{
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+  background-color: #ffffff;
+  padding: 30px 20px;
+  margin-top: 10px;
+}
+.task{
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #939697;
+  cursor: pointer;
+  background-color: #c5e1e6;
+  height: 50px;
+  margin-bottom: 8px;
+  padding: 5px 10px;
+  display: flex;
+}
+.task span{
+  font-family: 'Poppins',sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.task button{
+  background-color: #ce88ae;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  height: 100%;
+  width: 40px;
+  border-radius: 5px;
+}
+.task button:hover{
+  font-size: 25px;
+  font-weight: bold;
+}
